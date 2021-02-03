@@ -12,8 +12,6 @@ function generateToken(user){
         email: user.email,
         username: user.username
     }, SECRET_KEY, {expiresIn: '1h'});
-
-
 }
 
 module.exports = {
@@ -81,7 +79,7 @@ module.exports = {
                 ...res._doc,
                 id: res._id,
                 token
-            }
+            };
         }
     }
 }
