@@ -4,6 +4,13 @@ const commentsResolvers = require('./comments');
 const { Subscription } = require('./posts');
 
 module.exports = {
+    Post: {
+        likeCount(parent){
+            //console.log(parent);
+            return parent.likes.length;
+        },
+        commentCount: (parent) => parent.comments.length
+    },
     Query: {
         ...postsResolvers.Query
     },
