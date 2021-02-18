@@ -8,6 +8,7 @@ const resolvers = require('./graphql/resolvers');
 const pubsub = new PubSub();
 
 const PORT = process.env.PORT || 5000;
+const MONGO_LINK = process.env.MONGODB || MONGODB;
 
 const server = new ApolloServer({
     typeDefs,
@@ -15,7 +16,7 @@ const server = new ApolloServer({
     context: ({ req }) => ({ req, pubsub })
 });
 
-mongoose.connect(MONGODB, {
+mongoose.connect(MONGO_LINK, {
     useNewUrlParser: true, 
     useUnifiedTopology: true
 })
