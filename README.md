@@ -49,4 +49,6 @@ npm start
 ```
 
   
-  ### The api for this project is also available for testing in [heroku](https://arcane-sierra-76993.herokuapp.com/)
+  ### The api for this project is also available for testing in [heroku](https://arcane-sierra-76993.herokuapp.com/).
+
+  ### To view full project [click here](https://sharp-leavitt-ed6fba.netlify.app).
