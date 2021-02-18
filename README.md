@@ -1,5 +1,5 @@
 # Social Media Application Server
-  is a server-side application that uses MERNG stack following [React/GraphQL - Course Build a social media app MERNG Stack](https://www.youtube.com/watch?v=n1mdAPFq2Os) by [**freecodecamp.org**](freecodecamp.org).
+  is a server-side application that uses MERNG stack following [React/GraphQL - Course Build a social media app MERNG Stack](https://www.youtube.com/watch?v=n1mdAPFq2Os) by [**freecodecamp.org**](https://www.freecodecamp.org/).
 
   ## Installation
 
